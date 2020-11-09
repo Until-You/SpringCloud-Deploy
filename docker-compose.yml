@@ -1,7 +1,7 @@
 version: "3"
 services:
   pay-9001:
-    image: pay_9001:01
+    image: pay_9001:1.0-SNAPSHOT
     restart: on-failure
     ports:
       - 9001:9001
@@ -14,7 +14,7 @@ services:
           cpus: '2'
           memory: 10M
   order-83:
-    image: order_83:01
+    image: order_83:1.0-SNAPSHOT
     restart: on-failure
     ports:
       - 83:83
